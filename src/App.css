@@ -1,0 +1,48 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  /* outline: #F86F03; */
+}
+
+/* login work start */
+.in-form{
+  @apply flex justify-center items-center border pt-24 px-5 rounded-md;
+}
+.form input{
+  @apply border rounded p-2 outline-none mt-2 text-one;
+}
+.form legend{
+  @apply text-one mt-5;
+}
+.grid{
+  @apply container mx-auto;
+}
+.checkbox {
+  @apply  flex items-center mt-4  text-one;
+}
+.checkbox span {
+  @apply mt-2;
+}
+.checkbox input{
+  @apply  w-5 h-5 mr-3 text-one;
+}
+.form .register{
+  @apply text-one mt-10;
+}
+.form .register a{
+  @apply text-five border bg-three p-1 rounded;
+}
+.form p{
+  @apply text-two text-center mt-24 mb-2 text-sm; 
+}
+.form h6{
+  @apply text-red-600 text-sm; 
+}
+
+/* login work end */
+
+/* All button design work start here */
+.button{
+  @apply border rounded my-4 p-2 bg-one text-five;
+}
+/* All button work end here */
